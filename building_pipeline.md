@@ -11,14 +11,14 @@ https://ycheung8.github.io/
 
 ## Outline of Machine Learning Steps
 
-1_ Preprocess
-2_ Fill in Missing Values
-3_ Convert categorical values into numerical values
-4_ Scale or standardize the data
-4_ Create machine learning object, usually a classifier or a regressor.
-5_ Fit the Model
-6_ Predict
-7_ Evaluate the Model
+1_ Preprocess<br>
+2_ Fill in Missing Values<br>
+3_ Convert categorical values into numerical values<br>
+4_ Scale or standardize the data<br>
+4_ Create machine learning object, usually a classifier or a regressor.<br>
+5_ Fit the Model<br>
+6_ Predict<br>
+7_ Evaluate the Model<br>
 
 Incorporating steps 1-6 into a pipeline helps to evaluate multiple machine learning algorithms at once for a side-by-side comparison in step 7.
 ___
