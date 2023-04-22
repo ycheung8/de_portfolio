@@ -24,6 +24,12 @@ Incorporating steps 1-6 into a pipeline helps to evaluate multiple machine learn
 
 ## Python Coding for the Machine Learning Steps    
 
+### Import the Following Python Modules
+
+```
+
+```
+
 <b>Convert categorical values into numerical values </b>
 ```
 categorical_transformer = Pipeline(
@@ -45,6 +51,25 @@ numeric_transformer = Pipeline(
     ]
 )
 ```
+<u>Machine Learning Algorithm #1</u>
+```
+pipeline = Pipeline(
+    [
+        ('preprocessing', preprocessor),
+        ('reg', LogisticRegression())
+    ]
+) 
+```
+<u>Machine Learning Algorithm #2</u>
+```
+pipeline = Pipeline(
+    [
+        ('preprocessing', preprocessor),
+        ('reg', Ridge(alpha=1.0)) # Ridge
+    ]
+) 
+```
+
 ___
 
 ### Links
