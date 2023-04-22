@@ -9,9 +9,18 @@ https://ycheung8.github.io/
 -	Each component of a pipeline is called a step. 
 -	We’ll focus on two types of methods: transform() and fit().
 
-## Tableau Dashboards
+## Outline of Machine Learning Steps
 
-See full step by step tutorial [on Medium](https://medium.com/@evanca/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd).
+1_ Preprocess
+2_ Fill in Missing Values
+3_ Convert categorical values into numerical values
+4_ Scale or standardize the data
+4_ Create machine learning object, usually a classifier or a regressor.
+5_ Fit the Model
+6_ Predict
+7_ Evaluate the Model
+
+Incorporating steps 1-6 into a pipeline helps to evaluate multiple machine learning algorithms at once for a side-by-side comparison in step 7.
 ___
 
 You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
@@ -45,23 +54,6 @@ Fastest way to do a row count (through command line)
 
 (5) count rows in original csv file using CMD
     find /v /c "" Cohort_Waterfall_Aimovig_Migraine_Jan052022_error.csv.csv
-
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-## Kaggle Competitions
-Link to the code notebook: https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction JPX Tokyo Stock Exchange Prediction
-, and link to the competition: https://www.kaggle.com/code/jihyeseo/rain-eda-need-to-unzip
-___
-
+    
 ## Links
 LinkedIn - Yi Cheung | https://www.linkedin.com/in/yi-cheung
