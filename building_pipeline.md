@@ -21,39 +21,11 @@ https://ycheung8.github.io/
 7_ Evaluate the Model<br>
 
 Incorporating steps 1-6 into a pipeline helps to evaluate multiple machine learning algorithms at once for a side-by-side comparison in step 7.
+
+## Python Coding for the Machine Learning Steps    
+
+abc
 ___
 
-You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-## Stand-alone Projects
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-- ETL Pipeline
-
-- Data Science.
-  [Short Term Rentals in San Francisco](https://github.com/ycheung8/de_portfolio/blob/main/notebook/notebook_SanFranciscoShortTermRentals.ipynb/)
-
-- A
-- B
-- C
-```markdown
-Syntax highlighted code block
-
-Fastest way to do a row count (through command line)
-(1) Install GNUWIN, into a drive other than the C drive. 
-   (for example, I installed onto the G drive)
-
-(2) PATH=G:\ycheung\GnuWin32\bin;%PATH%
-
-(3) Navigate to the directory location of the csv file
-
-(4) gzip -f -9 Cohort_Waterfall_Aimovig_Migraine_Jan052022.csv
-   (9 is the highest compression, 6 is the default, this replaces csv with csv.gz)
-
-(5) count rows in original csv file using CMD
-    find /v /c "" Cohort_Waterfall_Aimovig_Migraine_Jan052022_error.csv.csv
-    
 ## Links
 LinkedIn - Yi Cheung | https://www.linkedin.com/in/yi-cheung
