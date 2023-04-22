@@ -56,7 +56,7 @@ numeric_transformer = Pipeline(
 pipeline = Pipeline(
     [
         ('preprocessing', preprocessor),
-        ('reg', {color:blue;}LogisticRegression()){color:black;}
+        ('reg', LogisticRegression())
     ]
 ) 
 ```
