@@ -27,7 +27,10 @@ Incorporating steps 1-6 into a pipeline helps to evaluate multiple machine learn
 ### Import the Following Python Modules
 
 ```
-
+from sklearn.compose import ColumnTransformer
+from sklearn.impute import SimpleImputer
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import OneHotEncoder, StandardScaler, LabelBinarizer, LabelEncoder, PolynomialFeatures, FunctionTransformer
 ```
 
 <b>Convert categorical values into numerical values </b>
