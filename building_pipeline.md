@@ -24,7 +24,7 @@ Incorporating steps 1-6 into a pipeline helps to evaluate multiple machine learn
 
 ## Python Coding for the Machine Learning Steps    
 
-###Convert categorical values into numerical values
+### Convert categorical values into numerical values
 
 categorical_transformer = Pipeline(
     [
