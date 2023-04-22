@@ -24,12 +24,24 @@ Incorporating steps 1-6 into a pipeline helps to evaluate multiple machine learn
 
 ## Python Coding for the Machine Learning Steps    
 
-### Convert categorical values into numerical values
+<b>Convert categorical values into numerical values </br>
 ```
 categorical_transformer = Pipeline(
     [
         ('imputer_cat', SimpleImputer(strategy = 'constant', fill_value = 'missing')),
         ('onehot', OneHotEncoder(handle_unknown = 'ignore'))
+    ]
+)
+```
+
+<b>Impute Missing Values from Numerical Columns</b>
+```
+numerical_col = ["latitude","longitude","bathrooms","bedrooms","minimum_nights"]
+
+numeric_transformer = Pipeline(
+    [
+        ('imputer_num', SimpleImputer(strategy = 'median')),
+        ('scaler', StandardScaler())
     ]
 )
 ```
