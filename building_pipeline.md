@@ -1,11 +1,13 @@
-# Data Science Portfolio by Yi Cheung
+Data Science Portfolio by Yi Cheung
 https://ycheung8.github.io/
+
+# Building a Machine Learning Pipeline
 
 ## Introduction
 
-Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
-
-<img src="images/demo.gif?raw=true"/>
+-	A machine learning pipeline orchestrates the flow of data into, and output from a machine learning model(s). 
+-	Each component of a pipeline is called a step. 
+-	We’ll focus on two types of methods: transform() and fit().
 
 ## Tableau Dashboards
 
