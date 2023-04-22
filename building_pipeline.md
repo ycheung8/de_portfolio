@@ -51,7 +51,7 @@ numeric_transformer = Pipeline(
     ]
 )
 ```
-<u>Machine Learning Algorithm #1</u>
+<u>Machine Learning Algorithm #1 (Logistic Regression or choose any other)</u>
 ```
 pipeline = Pipeline(
     [
@@ -60,7 +60,7 @@ pipeline = Pipeline(
     ]
 ) 
 ```
-<u>Machine Learning Algorithm #2</u>
+<u>Machine Learning Algorithm #2 (Ridge Regression or choose any other)</u>
 ```
 pipeline = Pipeline(
     [
