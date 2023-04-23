@@ -56,6 +56,17 @@ numeric_transformer = Pipeline(
     ]
 )
 ```
+
+```
+preprocessor = ColumnTransformer(
+    [
+        ('categoricals', categorical_transformer, categorical_col),
+        ('numericals', numeric_transformer, numerical_col)
+    ],
+    remainder = 'drop'
+)
+```
+
 <u>Machine Learning Algorithm #1 (Logistic Regression or choose any other)</u>
 ```
 pipeline = Pipeline(
