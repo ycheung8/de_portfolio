@@ -56,9 +56,9 @@ numeric_transformer = Pipeline(
     ]
 )
 ```
-Wrap the above pipelines into a preprocessor object that includes steps for:
- (A) processing the numerical columns
-and 
+Wrap the above pipelines into a preprocessor object that includes steps for:<br>
+ (A) processing the numerical columns<br>
+and <br>
  (B) processing the categorical columns.
 ```
 preprocessor = ColumnTransformer(
