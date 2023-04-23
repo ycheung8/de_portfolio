@@ -22,7 +22,7 @@ https://ycheung8.github.io/
 
 Incorporating steps 1-6 into a pipeline helps to evaluate multiple machine learning algorithms at once for a side-by-side comparison in step 7.
 
-![image](https://user-images.githubusercontent.com/24240715/233846136-c9a79969-0519-4b74-bf1c-f3d6d45e9771.png)
+![image](https://user-images.githubusercontent.com/24240715/233846178-e2bab6ab-2beb-49c3-abcf-88798d3ced12.png)
 
 ## Python Coding for the Machine Learning Steps    
 
