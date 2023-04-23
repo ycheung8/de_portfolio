@@ -1,4 +1,4 @@
-Data Science Portfolio by Yi Cheung
+Data Science Portfolio by Yi Cheung<br>
 https://ycheung8.github.io/
 
 # Building a Machine Learning Pipeline
