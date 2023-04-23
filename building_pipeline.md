@@ -86,11 +86,11 @@ pipeline = Pipeline(
 ) 
 
 ```
+```
 pipeline.fit(X_train, y_train)
 
 y_pred = pipeline.predict(X_test)
 
-```
 ```
 ___
 
